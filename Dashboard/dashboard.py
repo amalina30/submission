@@ -22,7 +22,7 @@ def create_hour_df(df):
     return df
 
 # Load cleaned data
-merged_df = pd.read_csv("C:\Lina\Kuliah\Bangkit\Dashboard\merged.csv")
+merged_df = pd.read_csv("https://raw.githubusercontent.com/amalina30/submission/main/Dashboard/merged.csv")
 
 datetime_column = ["dteday"]
 for column in datetime_column:
